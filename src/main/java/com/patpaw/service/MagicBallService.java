@@ -1,6 +1,6 @@
-package service;
+package com.patpaw.service;
 
-import model.MagicBall;
+import com.patpaw.model.MagicBall;
 
 import java.util.Map;
 

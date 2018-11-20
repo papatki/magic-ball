@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Magic Ball</title>
+    <link rel="stylesheet" th:href="@{/style.css}"/>
+</head>
+<body>
+    <div>
+        <h1>Magic Ball</h1>
+        <h2>Ask a question - get an answer</h2>
+        <input type="text"/><br/>
+        <a th:href="@{__${T(com.patpaw.util.Mappings).GET_ANSWER}__}">
+            <input type="submit" value="Click here to ask me"/>
+        </a>
+    </div>
+
+</body>
+</html>

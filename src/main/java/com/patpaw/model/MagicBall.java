@@ -1,13 +1,14 @@
-package model;
+package com.patpaw.model;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class MagicBall {
 
-    private final Map<Integer, String> magicBall = new HashMap<>();
+    private  Map<Integer, String> magicBall = new HashMap<>();
 
-    public MagicBall() {
+    public Map<Integer, String> makeABall() {
+        magicBall = new HashMap<>();
         magicBall.put(1, "It is certain.");
         magicBall.put(2,"It is decidedly so.");
         magicBall.put(3, "Without a doubt.");
@@ -28,5 +29,7 @@ public class MagicBall {
         magicBall.put(18, "My sources say no.");
         magicBall.put(19, "Outlook not so good.");
         magicBall.put(20, "Very doubtful.");
+        return magicBall;
     }
+
 }

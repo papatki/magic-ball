@@ -1,23 +1,20 @@
-package service;
+package com.patpaw.service;
 
-import model.MagicBall;
+
+import org.springframework.stereotype.Service;
 
 import java.util.Map;
 import java.util.Random;
 
+@Service
 public class MagicBallServiceImpl implements MagicBallService {
 
-//    @Override
-//    public Map<Integer, String> getMagicBall() {
-//        return (Map<Integer, String>) new MagicBall();
-//    }
 
     @Override
     public String getAnswer(Map<Integer, String> magicBall) {
         int key = getRandomNumber(1, magicBall.size());
         return magicBall.get(key);
     }
-
 
     @Override
     public int getRandomNumber(int min, int max) {
