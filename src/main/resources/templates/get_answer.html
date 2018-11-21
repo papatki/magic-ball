@@ -1,17 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8">
-    <title>Magic Ball</title>
-    <link rel="stylesheet" th:href="@{/style.css}"/>
-</head>
+<html lang="en">
+<head id="headId"></head>
 <body>
 <div>
-    <h2 th:text="${__${T(com.patpaw.util.AttributeNames).RESULT}__}"></h2>
-    <a th:href="@{'/'}">
+    <h2 id="result"></h2>
+    <a id="goBack">
         <input type="submit" value="Ask again"/>
     </a>
 </div>
-
 </body>
+<footer id="footerId"></footer>
 </html>

@@ -1,0 +1,5 @@
+<thlogic>
+    <attr sel="#headId" th:replace="~{fragments/header :: headFragment}"/>
+    <attr sel="#toAnswer" th:href="@{__${T(com.patpaw.util.Mappings).GET_ANSWER}__}"/>
+    <attr sel="#footerId" th:replace="~{fragments/footer :: footerFragment}"/>
+</thlogic>
