@@ -4,14 +4,11 @@ import com.patpaw.model.MagicBall;
 import com.patpaw.util.AttributeNames;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-
-
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import com.patpaw.service.MagicBallService;
 import com.patpaw.util.Mappings;
 import com.patpaw.util.ViewNames;
-
 
 @Controller
 public class MagicBallController {

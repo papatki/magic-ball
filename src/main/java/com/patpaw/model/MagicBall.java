@@ -18,7 +18,7 @@ public class MagicBall {
         magicBall.put(7,"Most likely.");
         magicBall.put(8, "Outlook good.");
         magicBall.put(9, "Yes.");
-        magicBall.put(10, "Signs point to yes");
+        magicBall.put(10, "Signs point to yes.");
         magicBall.put(11, "Reply hazy, try again.");
         magicBall.put(12,"Ask again later.");
         magicBall.put(13, "Better not tell you now.");

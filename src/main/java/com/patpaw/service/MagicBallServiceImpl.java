@@ -1,6 +1,5 @@
 package com.patpaw.service;
 
-
 import org.springframework.stereotype.Service;
 
 import java.util.Map;
@@ -8,7 +7,6 @@ import java.util.Random;
 
 @Service
 public class MagicBallServiceImpl implements MagicBallService {
-
 
     @Override
     public String getAnswer(Map<Integer, String> magicBall) {
@@ -26,4 +24,5 @@ public class MagicBallServiceImpl implements MagicBallService {
         Random r = new Random();
         return r.nextInt((max - min) + 1) + min;
     }
+
 }
