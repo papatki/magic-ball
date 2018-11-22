@@ -20,7 +20,16 @@ body {
     position: relative;
     text-align: center;
     font-family: Lato;
-    padding-top: 40vh;
+    padding-top: 30vh;
+}
+
+.circle {
+    width: 140px;
+    height: 140px;
+    background: rgba(255,255,255, 0.1);
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
 }
 
 #content {
