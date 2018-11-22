@@ -1,0 +1,10 @@
+com/patpaw/util/Mappings.class
+com/patpaw/controller/MagicBallController.class
+com/patpaw/service/MagicBallServiceImpl.class
+com/patpaw/service/MagicBallService.class
+com/patpaw/util/AttributeNames.class
+com/patpaw/config/WebConfig.class
+com/patpaw/util/ViewNames.class
+com/patpaw/model/MagicBall.class
+com/patpaw/util/thymeleaf/DecoupledLogicSetup.class
+com/patpaw/Main.class

@@ -1,0 +1,6 @@
+<thlogic>
+    <attr sel="#headId" th:replace="~{fragments/header :: headFragment}"/>
+    <attr sel="#result" th:text="${__${T(com.patpaw.util.AttributeNames).RESULT}__}"/>
+    <attr sel="#goBack" th:href="@{'/'}"/>
+    <attr sel="#footerId" th:replace="~{fragments/footer :: footerFragment}"/>
+</thlogic>

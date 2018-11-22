@@ -1,0 +1,10 @@
+/home/patrycja/IdeaProjects/magic-ball/src/main/java/com/patpaw/Main.java
+/home/patrycja/IdeaProjects/magic-ball/src/main/java/com/patpaw/util/ViewNames.java
+/home/patrycja/IdeaProjects/magic-ball/src/main/java/com/patpaw/util/AttributeNames.java
+/home/patrycja/IdeaProjects/magic-ball/src/main/java/com/patpaw/controller/MagicBallController.java
+/home/patrycja/IdeaProjects/magic-ball/src/main/java/com/patpaw/service/MagicBallServiceImpl.java
+/home/patrycja/IdeaProjects/magic-ball/src/main/java/com/patpaw/model/MagicBall.java
+/home/patrycja/IdeaProjects/magic-ball/src/main/java/com/patpaw/service/MagicBallService.java
+/home/patrycja/IdeaProjects/magic-ball/src/main/java/com/patpaw/config/WebConfig.java
+/home/patrycja/IdeaProjects/magic-ball/src/main/java/com/patpaw/util/thymeleaf/DecoupledLogicSetup.java
+/home/patrycja/IdeaProjects/magic-ball/src/main/java/com/patpaw/util/Mappings.java
