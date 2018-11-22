@@ -1,4 +1,4 @@
-# magic-ball
+# Magic Ball
 Magic Ball is a web app inspiring on The Magic 8-Ball toy used for fortune-telling or seeking advice. 
 ## Getting started
 Visit the website - [**Magic Ball**.](https://ball-magic.herokuapp.com/) </br>
